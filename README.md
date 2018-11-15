@@ -9,3 +9,20 @@
 
 注意事项
  - 默认的rating上下界是 1250 和 2600，如果显示不全，可以在options里面修改
+ - 曲线上会出现红点，猜测应该是代表最高rating的那一场
+
+data每一项含义：   
+data\[   
+&emsp;时间戳,   
+&emsp;当前rating,   
+&emsp;比赛编号,   
+&emsp;比赛名称(英文),   
+&emsp;比赛名称(俄文),   
+&emsp;rating变化,   
+&emsp;比赛排名,   
+&emsp;比赛链接,   
+&emsp;头衔,   
+&emsp;也是头衔?,   
+&emsp;数据的id(必须有，否则tips不会自动消失),   
+&emsp;要显示的比赛名称(英文)   
+\]
